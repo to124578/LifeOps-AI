@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+mark.ev { background: #fde68a; border-radius: 3px; padding: 0 2px; }
+@keyframes pulse-ring { 0% { box-shadow: 0 0 0 0 rgba(79,70,229,.45); } 100% { box-shadow: 0 0 0 12px rgba(79,70,229,0); } }
+.running-ring { animation: pulse-ring 1.2s infinite; }
